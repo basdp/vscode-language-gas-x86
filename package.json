@@ -2,13 +2,16 @@
     "name": "language-gas-x86",
     "displayName": "gas",
     "description": "GNU Assembler x86 language support",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "basdp",
+    "repository": {
+        "url": "https://github.com/basdp/vscode-language-gas-x86.git"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
