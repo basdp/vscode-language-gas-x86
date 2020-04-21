@@ -1,8 +1,9 @@
 {
     "name": "language-gas-x86",
-    "displayName": "gas",
-    "description": "GNU Assembler x86 language support",
+    "displayName": "GNU Assembler Language Support",
+    "description": "GNU Assembler x86/x86_64 language support",
     "version": "0.0.2",
+    "license": "MIT",
     "publisher": "basdp",
     "repository": {
         "url": "https://github.com/basdp/vscode-language-gas-x86.git"
@@ -25,5 +26,6 @@
             "scopeName": "source.x86",
             "path": "./syntaxes/gas.tmLanguage"
         }]
-    }
+    },
+    "icon": "logo.png"
 }
