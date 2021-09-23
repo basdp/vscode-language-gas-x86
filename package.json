@@ -18,7 +18,7 @@
         "languages": [{
             "id": "gas",
             "aliases": ["GAS/AT&T x86/x64", "gas"],
-            "extensions": [".s",".S",".sx"],
+            "extensions": [".s",".S",".sx", "asm"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
