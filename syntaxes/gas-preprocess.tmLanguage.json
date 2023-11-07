@@ -335,5 +335,5 @@
       "name": "support.constant.arch_specification"
     }
   ],
-  "scopeName": "source.x86-preprocess"
+  "scopeName": "source.x86.preprocess"
 }
