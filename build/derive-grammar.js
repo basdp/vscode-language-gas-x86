@@ -20,7 +20,7 @@ const grammar = {
             match: '^\\s*(#\\s+((un)?assert|define|elif|else|endif|error|ident|(ifn?|un)?def|if|import|include(_next)?|line|pragma|sccs|warning)\\b).*'
         }
     ].concat(original.patterns),
-    scopeName: 'source.x86-preprocess',
+    scopeName: 'source.x86.preprocess',
 };
 
 fs.writeFileSync('./syntaxes/gas-preprocess.tmLanguage.json', JSON.stringify(grammar, null, 2));
